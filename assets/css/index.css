@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Karantina', Roboto;
+}
+body{
+    background-color:#1d1d1f;
+    
+}
+/* CABEÇALHO */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 25px;
+    font-size: 30px;
+}
+.logo{
+    color: #FFFFFF;
+    width: 250px;
+}
+.logo span{
+    color: rgba(141, 25, 25, 1);
+}
+.emoji{
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.link-button{   
+    padding: 20px;
+    text-decoration: none;
+    color: #FFFFFFFF;
+}
+.div-btn{
+    width: 250px;
+    display: flex;
+    justify-content: flex-end;
+}
+.botao-logar{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid #FFFFFFFF;
+    background-color: transparent;
+    color: #FFFFFFFF;
+    cursor: pointer;
+    transition: linear 0.1s;
+    font-size: 23px;
+}
+.botao-logar:hover{
+    background-color: rgba(255, 255, 255, 0.329);
+}
+.botao-logar a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* MAIN */
+main{
+    padding: 45px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.exibindo-now{
+    color: #FFFFFF;
+}
+.banner-filme{
+    display: flex;
+    margin: 100px;
+    width: 750px;
+    height: 320px;
+    background-color: rgba(12, 11, 11, 1);
+}
+
+.banner-filme img{
+    height: 300px;
+    margin: 0 0 0 35px;
+    padding-bottom: 10px;
+    scale: 1.15;
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    font-size:23px;
+}
+.banner-text h2{
+    margin-bottom: 10px;
+    color: rgba(159, 14, 14, 1);
+}
+.banner-text p{
+    color: #FFFFFF;
+    z-index: 1;
+}
+.line-border{
+    border-top: 1px solid #000000;
+}
+.menu-recommend{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFFFFF;
+    padding: 0 20px 10px;
+    font-size: 20px;
+}
+.generos{
+    font-size: 20px;
+}
+.generos span{
+    margin: 0 5px;
+}
+.movies-recommend{
+    display: flex;
+    padding: 50px 0px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+    color: #FFFFFF;
+}
+.card img{
+    height: 300px;
+    width: 200px;
+    margin: 0 0 10px;
+}
+.card h3{
+    
+    letter-spacing: 0.5px;
+}
+.catalog-recommend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 900px;
+}
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-color:rgba(15, 15, 15, 1);
+}
+.logo-footer{
+    color: #FFFFFF;
+    height: 50px;
+}
+.logo-footer span{
+    color: rgba(141, 25, 25, 1);
+}
+.footer-section{
+    color: #FFFFFF;
+    width: 450px;
+    font-size: 20px;
+}
+
+

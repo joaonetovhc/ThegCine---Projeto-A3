@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Karantina', Roboto;
+}
+body{
+    background-color:#1d1d1f;
+}
+/*CABEÇALHO*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 17px 25px;
+    font-size: 30px;
+}
+.logo{
+    color: #FFFFFF;
+    width: 250px;
+}
+.logo span{
+    color: rgba(141, 25, 25, 1);
+}
+.logo a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.emoji{
+    font-size: 20px;
+}
+/*MAIN*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main h1{
+    padding: 10px;
+}
+.movie-container {
+    background-color: #444;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+label {
+    font-size: 24px;
+    color: #000000;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+}
+
+button {
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: rgba(141, 25, 25, 1);
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: rgb(201, 35, 35);
+    color: #FFFFFF;
+}

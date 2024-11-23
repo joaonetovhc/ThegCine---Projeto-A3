@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Filme</title>
+    <link rel="stylesheet" href="assets/css/editarFilme.css">
+</head>
+<body>
+    <body>
+        <header>
+            <h1 class="logo"><a href="index.html">THEG<span>cine</span><span class="emoji">🎬</span></a></h1>
+        </header>
+        <main>
+            <h1>Editar informações do filme</h1>
+            <div class="movie-container">
+                <h2>Edite abaixo o campo desejado</h2>
+                <form id="movieForm">
+                    <label for="title-movie">Título do filme:</label>
+                    <input type="text" id="title-movie" placeholder="Insira o título do filme" required>
+                  
+                    <label for="date-movie">Data de lançamento:</label>
+                    <input type="text" id="date-movie" placeholder="Insira a data de lançamento" required>
+                  
+                    <label for="url-foto">URL da capa:</label>
+                    <input type="text" id="url-foto" placeholder="Insira a url" required>
+                  
+                    <label for="year-movie">Ano do filme:</label>
+                    <input type="datetime" id="year-movie" placeholder="Insira o ano do filme" required>
+
+                    <label for="description">Descrição do filme:</label>
+                    <input type="text" id="description" placeholder="Adicione uma descrição do filme" required>
+            
+                    <button type="submit">Editar</button>
+                  </form>
+            </div>
+        </main>
+        <script src="assets/js/editarFilme.js"></script>
+    </body>
+</body>
+</html>
