@@ -7,7 +7,6 @@ Método: POST
 URL: /registrar
 Descrição: Registra um novo usuário com nome e senha.
 
-
 2. Login
 Método: POST 
 URL: /login
